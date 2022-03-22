@@ -9,9 +9,9 @@ const { NETWORK } = require(path.join(basePath, "constants/network.js"));
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "TTAV Edition";
+const description = "Time Travelling Anime Villains are your keys to the Villain-verse!";
+const baseUri = "ipfs://QmaDspzYdpnKx1aiowohyn6WsXQm36BipKJSajYgKJtH8S";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -27,18 +27,338 @@ const solanaMetadata = {
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
+  
+
+  // ALL HAIR MASC
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 44,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (M)" },
+      { name: "Eyes (M)" },
+      { name: "Clothes (M)"},
+      { name: "Lower Jaw (M) (Config 2)" },
+      { name: "Hair Reduced (M) (Config 2)" },
+      { name: "Face" },
+      { name: "Horns" },
     ],
   },
+  {
+    growEditionSizeTo: 54,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (F)" },
+      { name: "Eyes (F)" },
+      { name: "Clothes (M)"},
+      { name: "Lower Jaw (F) (Config 2)" },
+      { name: "Hair Reduced (F) (Config 2)" },
+      { name: "Face" },
+      { name: "Horns" },
+    ],
+  },
+  {
+    growEditionSizeTo: 55,
+    layersOrder: [
+      { name: "One-of-One"}
+    ],
+  },
+  {
+    growEditionSizeTo: 119,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (M)" },
+      { name: "Eyes (M)" },
+      { name: "Clothes (M)"},
+      { name: "Lower Jaw (M) (Config 2)" },
+      { name: "Hair Reduced (M) (Config 2)" },
+      { name: "Face" },
+      { name: "Horns" },
+    ],
+  },
+  {
+    growEditionSizeTo: 129,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (F)" },
+      { name: "Eyes (F)" },
+      { name: "Clothes (M)"},
+      { name: "Lower Jaw (F) (Config 2)" },
+      { name: "Hair Reduced (F) (Config 2)" },
+      { name: "Face" },
+      { name: "Horns" },
+    ],
+  },
+  {
+    growEditionSizeTo: 130,
+    layersOrder: [
+      { name: "One-of-One"}
+    ],
+  },
+  {
+    growEditionSizeTo: 224,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (M)" },
+      { name: "Eyes (M)" },
+      { name: "Clothes (M)"},
+      { name: "Lower Jaw Reduced (M) (Config 1)" },
+      { name: "Hair (M) (Config 1)" },
+      { name: "Face" },
+    ],
+  },
+  {
+    growEditionSizeTo: 234,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (F)" },
+      { name: "Eyes (F)" },
+      { name: "Clothes (F)"},
+      { name: "Lower Jaw Reduced (F) (Config 1)" },
+      { name: "Hair (F) (Config 1)" },
+      { name: "Face" },
+    ],
+  },
+  {
+    growEditionSizeTo: 235,
+    layersOrder: [
+      { name: "One-of-One"}
+    ],
+  },
+  {
+    growEditionSizeTo: 327,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (M)" },
+      { name: "Eyes (M)" },
+      { name: "Clothes (M)"},
+      { name: "Lower Jaw (M) (Config 2)" },
+      { name: "Hair Reduced (M) (Config 2)" },
+      { name: "Face" },
+      { name: "Horns" },
+    ],
+  },
+  {
+    growEditionSizeTo: 337,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (F)" },
+      { name: "Eyes (F)" },
+      { name: "Clothes (F)"},
+      { name: "Lower Jaw Reduced (F) (Config 1)" },
+      { name: "Hair (F) (Config 1)" },
+      { name: "Face" },
+    ],
+  },
+  {
+    growEditionSizeTo: 338,
+    layersOrder: [
+      { name: "One-of-One"}
+    ],
+  },
+  {
+    growEditionSizeTo: 413,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (M)" },
+      { name: "Eyes (M)" },
+      { name: "Clothes (M)"},
+      { name: "Lower Jaw Reduced (M) (Config 1)" },
+      { name: "Hair (M) (Config 1)" },
+      { name: "Face" },
+    ],
+  },
+  {
+    growEditionSizeTo: 423,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (F)" },
+      { name: "Eyes (F)" },
+      { name: "Clothes (F)"},
+      { name: "Lower Jaw Reduced (F) (Config 1)" },
+      { name: "Hair (F) (Config 1)" },
+      { name: "Face" },
+    ],
+  },
+  {
+    growEditionSizeTo: 424,
+    layersOrder: [
+      { name: "One-of-One"}
+    ],
+  },
+  {
+    growEditionSizeTo: 567,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (M)" },
+      { name: "Eyes (M)" },
+      { name: "Clothes (M)"},
+      { name: "Lower Jaw (M) (Config 2)" },
+      { name: "Hair Reduced (M) (Config 2)" },
+      { name: "Face" },
+      { name: "Horns" },
+    ],
+  },
+  {
+    growEditionSizeTo: 577,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (F)" },
+      { name: "Eyes (F)" },
+      { name: "Clothes (M)"},
+      { name: "Lower Jaw (F) (Config 2)" },
+      { name: "Hair Reduced (F) (Config 2)" },
+      { name: "Face" },
+      { name: "Horns" },
+    ],
+  },
+  {
+    growEditionSizeTo: 578,
+    layersOrder: [
+      { name: "One-of-One"}
+    ],
+  },
+  {
+    growEditionSizeTo: 661,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (M)" },
+      { name: "Eyes (M)" },
+      { name: "Clothes (M)"},
+      { name: "Lower Jaw (M) (Config 2)" },
+      { name: "Hair Reduced (M) (Config 2)" },
+      { name: "Face" },
+      { name: "Horns" },
+    ],
+  },
+  {
+    growEditionSizeTo: 671,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (F)" },
+      { name: "Eyes (F)" },
+      { name: "Clothes (F)"},
+      { name: "Lower Jaw Reduced (F) (Config 1)" },
+      { name: "Hair (F) (Config 1)" },
+      { name: "Face" },
+    ],
+  },
+  {
+    growEditionSizeTo: 672,
+    layersOrder: [
+      { name: "One-of-One"}
+    ],
+  },
+  {
+    growEditionSizeTo: 693,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (M)" },
+      { name: "Eyes (M)" },
+      { name: "Clothes (M)"},
+      { name: "Lower Jaw Reduced (M) (Config 1)" },
+      { name: "Hair (M) (Config 1)" },
+      { name: "Face" },
+    ],
+  },
+  {
+    growEditionSizeTo: 703,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (F)" },
+      { name: "Eyes (F)" },
+      { name: "Clothes (F)"},
+      { name: "Lower Jaw Reduced (F) (Config 1)" },
+      { name: "Hair (F) (Config 1)" },
+      { name: "Face" },
+    ],
+  },
+
+  // One of One
+  {
+    growEditionSizeTo: 704,
+    layersOrder: [
+      { name: "One-of-One"}
+    ],
+  },
+  // ALL LOWER JAW MASC
+  {
+    growEditionSizeTo: 829,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (M)" },
+      { name: "Eyes (M)" },
+      { name: "Clothes (M)"},
+      { name: "Lower Jaw (M) (Config 2)" },
+      { name: "Hair Reduced (M) (Config 2)" },
+      { name: "Face" },
+      { name: "Horns" },
+    ],
+  },
+  {
+    growEditionSizeTo: 839,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (F)" },
+      { name: "Eyes (F)" },
+      { name: "Clothes (F)"},
+      { name: "Lower Jaw Reduced (F) (Config 1)" },
+      { name: "Hair (F) (Config 1)" },
+      { name: "Face" },
+    ],
+  },
+  {
+    growEditionSizeTo: 888,
+    layersOrder: [
+      { name: "BG"},
+      { name: "BG Text" },
+      { name: "Equipment"},
+      { name: "Base Body (M)" },
+      { name: "Eyes (M)" },
+      { name: "Clothes (M)"},
+      { name: "Lower Jaw Reduced (M) (Config 1)" },
+      { name: "Hair (M) (Config 1)" },
+      { name: "Face" },
+    ],
+
+  },
+
+
 ];
 
 const shuffleLayerConfigurations = false;
@@ -46,8 +366,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 1000,
+  height: 1000,
 };
 
 const gif = {
@@ -71,7 +391,7 @@ const text = {
 };
 
 const pixelFormat = {
-  ratio: 2 / 128,
+  ratio: 20 / 128,
 };
 
 const background = {
